@@ -93,7 +93,13 @@ These accelerators offload computationally intensive tasks from the main CPU, en
 - **Key Pair:** aws_login
 - **Access Instructions for Windows:**
   - Use PuTTY (C:\Program Files\PuTTY\) or MobaXterm.
-  - <details>
+  - Public IP: <public ip>
+  - SSH Command: `ssh -i aws_login.pem ubuntu@<public-IP>`
+  - If permission error, use `chmod 600 filename`.
+- **Access Instructions for MobaXterm or PuTTY Not Required:**
+  - SSH Command: `ssh -i aws_login.pem ubuntu@<public-ip>`
+
+ <details>
     <summary>MobaXterm setup</summary>
    # Accessing EC2 Instances from Windows using MobaXterm
 
@@ -144,12 +150,6 @@ These accelerators offload computationally intensive tasks from the main CPU, en
 - Following these steps, users can connect to EC2 instances swiftly and efficiently.
 - This guide aims to assist Windows users in overcoming accessibility challenges when working with AWS services.
   </details>
-  - Public IP: <public ip>
-  - SSH Command: `ssh -i aws_login.pem ubuntu@<public-IP>`
-  - If permission error, use `chmod 600 filename`.
-- **Access Instructions for MobaXterm or PuTTY Not Required:**
-  - SSH Command: `ssh -i aws_login.pem ubuntu@<public-ip>`
-
 ### Basic Commands to Test
 
 - `whoami`: Display current user.
