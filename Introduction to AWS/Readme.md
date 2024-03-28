@@ -1,5 +1,5 @@
 
-# AWS Zero to Hero Series - Episode 1 Notes
+# AWS Zero to Hero Series - 
 
 ## Introduction
 - Welcome back to my channel, this is episode 1 of the AWS Zero to Hero series.
